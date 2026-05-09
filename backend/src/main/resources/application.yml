@@ -30,3 +30,5 @@ staybooking:
     credentials-file: ${STAYBOOKING_GCS_CREDENTIALS_FILE:}
   geocoding:
     key: ${STAYBOOKING_GEOCODING_KEY}
+  jwt:
+    secret-key: ${STAYBOOKING_JWT_SECRET_KEY}
